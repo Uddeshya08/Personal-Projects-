@@ -3,7 +3,11 @@
   <span>Kanban Fire</span>
 </mat-toolbar>
 
-<div class="content-warapper">
+<div class="content-warapper" (click)="newTask()">
+ <button mat-button>
+   <mat-icon>add</mat-icon>Add Task
+ </button>
+
   <div class="container-warapper">
     <div class="container">
       <h2>Backlog</h2>
